@@ -24,7 +24,11 @@ Cabe mencionar, que el owner es el encargado de asignar qué roles tendrán los 
 ### Paso 2: Medición de las métricas de red
 
 Para la mediciones de las métricas fue necesario dividirlo en dos partes.
-La primera parte se basó únicamente en medir la latencia que se tenía al conectar cada equipo, para esto se hizo uso de un script de python, donde se utilizó la librería pythonping para poder hacer ping con cada uno de las computadoras y poder obtener valor como el mínimo, máximo y latencia promedio que se tenía entre cada conexión
+La primera parte se basó únicamente en medir la latencia que se tenía al conectar cada equipo, para esto se hizo uso de un script de python, donde se utilizó la librería pythonping para poder hacer ping con cada uno de las computadoras y poder obtener valor como el mínimo, máximo y latencia promedio que se tenía entre cada conexión.
+
+![Mediciones de latencia](https://github.com/DokjaORV/VPNProject/blob/127fc3ac13c2516bd16ba4f0bdd6d9edd8981ef1/docs/imagenes/image-7.png)
+
+![Mediciones de Ancho de Banda](https://github.com/DokjaORV/VPNProject/blob/127fc3ac13c2516bd16ba4f0bdd6d9edd8981ef1/docs/imagenes/image-8.png)
 
 Para la segunda parte de las mediciones, se procedió a medir el ancho de banda, igualmente de las conexiones entre equipos
 
@@ -44,10 +48,10 @@ Pantalla del emisor:
 ![Envío del emisor](https://github.com/DokjaORV/VPNProject/blob/ea74386b77771011d3322444c10ba6856bf3c79d/docs/imagenes/image-2.png)
 
 Pantalla del nodo intermedio:
-![Nodo Intermedio](image-3.png)
+![Nodo Intermedio](https://github.com/DokjaORV/VPNProject/blob/e51459510b8ffaaff103bca9dea6fe37539d4f11/docs/imagenes/image-3.png)
 
 Pantalla del receptor:
-![Receptor](image-4.png)
+![Receptor](https://github.com/DokjaORV/VPNProject/blob/e51459510b8ffaaff103bca9dea6fe37539d4f11/docs/imagenes/image-4.png)
 
 
 En este link encontrarás el algoritmo para probarlo directamente en tu dispositivo, hay que asegurarse de que los dispositivos emisores y receptores ejecuten el archivo y en dado caso que tengas nodos intermedios, de igual manera.
@@ -58,7 +62,7 @@ En este link encontrarás el algoritmo para probarlo directamente en tu disposit
 Este proyecto implementa el algoritmo de Kruskal para encontrar un Árbol de Expansión Mínima (MST) en una red representada como grafo ponderado. El objetivo es optimizar el uso de la red basándose en los valores de ancho de banda entre los nodos.
 Como primer paso, creamos el grafo con el ancho de banda con el fin de identificar cómo es que se armaria para posteriormente aplicar Kruskal
 
-![Grafo de Ancho de Banda]([image-5.png]
+![Grafo de Ancho de Banda](https://github.com/DokjaORV/VPNProject/blob/127fc3ac13c2516bd16ba4f0bdd6d9edd8981ef1/docs/imagenes/image-5.png)
 
 Una vez armado el grafo de ancho de banda con las conexiones entre 4 nodos (personas) las cuales son: **Alan, Andres, Marlene y Giovanni**
 y cada arista tiene dos valores los cuales son:
@@ -67,7 +71,7 @@ y cada arista tiene dos valores los cuales son:
 
 Una vez que identificamos los valores del grafo, para los cálculos se tomó el promedio entre subida y bajada
 
-![Kruskal](image-6.png)
+![Kruskal](https://github.com/DokjaORV/VPNProject/blob/127fc3ac13c2516bd16ba4f0bdd6d9edd8981ef1/docs/imagenes/image-6.png)
 
 ## Comparación entre la topología original con la propuesta por Kruskal
 
