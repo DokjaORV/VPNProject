@@ -15,7 +15,7 @@ Implementar esta metodología fue particularmente útil al momento  de decidir l
 Para la creación de la VPN decidimos hacer uso de la herramienta Tailscale, que nos ayudó a crear rápidamente una VPN para después comenzar a agregar al resto de colaboradores y sus dispositivos.
 Esta herramienta permitió interconectar cada uno de nuestros equipos facilitando muchas de las funcionalidades de nuestros programas
 
-![Dispositivos conectados a una VPN Tailscale](image.png)
+![Dispositivos conectados a una VPN Tailscale](https://github.com/DokjaORV/VPNProject/blob/ea74386b77771011d3322444c10ba6856bf3c79d/docs/imagenes/image.png)
 
 Para conectarse a la red tailscale del creador de la VPN, necesitamos pagar la suscripción de tailscale ya que únicamente permite a 3 usuarios lo cual en nuestro equipo no era apto.
 Seguido de ello, el Cowner de la VPN, compartirá la red ya sea por medio de correo electrónico o link para que los demás colaboradores se unan con un correo electrónico de preferencia y después seleccionen unirse a la red compartida.
@@ -34,14 +34,14 @@ Para comenzar con la implementación tuvimos que hacer uso del grafo de latencia
 
 Por medio del uso de Dijkstra, el programa se encarga de encontrar la ruta más óptima entre dos nodos para enviar un archivo, siendo capaz de utilizar nodos intermedios (dispositivos) formando así, una ruta más eficiente al momento de mandar un archivo. Asi mismo, el programa es capaz de enviar archivos directamente sin necesidad de pasar por nodos intermedios, dándole la opción al usuario por medio de una interfaz gráfica de seleccionar quien es el origen, el rol que tiene, el destino al que quiere llegar, además, de poder seleccionar el archivo de su preferencia.
 
-![Interfaz gráfica Dijkstra]([image1.png](https://github.com/DokjaORV/VPNProject/blob/ebec378e10d9fa1bd14e648b1d9f4c9fc6208080/docs/imagenes/image-1.png))
+![Interfaz gráfica Dijkstra](https://github.com/DokjaORV/VPNProject/blob/ebec378e10d9fa1bd14e648b1d9f4c9fc6208080/docs/imagenes/image-1.png)
 
 
 Probando el algoritmo, nos dimos cuenta que el programa no está del todo diseñado para archivos demasiado grandes, por lo que se recomienda, hacer envío de archivos pequeños, esto con el fin de garantizar un correcto funcionamiento del programa.
 Esta es una prueba de cómo funciona el envio buscando la ruta más rápida:
 
 Pantalla del emisor:
-![Envío del emisor](image-2.png)
+![Envío del emisor](https://github.com/DokjaORV/VPNProject/blob/ea74386b77771011d3322444c10ba6856bf3c79d/docs/imagenes/image-2.png)
 
 Pantalla del nodo intermedio:
 ![Nodo Intermedio](image-3.png)
