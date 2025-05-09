@@ -34,7 +34,7 @@ Para comenzar con la implementación tuvimos que hacer uso del grafo de latencia
 
 Por medio del uso de Dijkstra, el programa se encarga de encontrar la ruta más óptima entre dos nodos para enviar un archivo, siendo capaz de utilizar nodos intermedios (dispositivos) formando así, una ruta más eficiente al momento de mandar un archivo. Asi mismo, el programa es capaz de enviar archivos directamente sin necesidad de pasar por nodos intermedios, dándole la opción al usuario por medio de una interfaz gráfica de seleccionar quien es el origen, el rol que tiene, el destino al que quiere llegar, además, de poder seleccionar el archivo de su preferencia.
 
-![Interfaz gráfica Dijkstra](image1.png)
+![Interfaz gráfica Dijkstra]([image1.png](https://github.com/DokjaORV/VPNProject/blob/ebec378e10d9fa1bd14e648b1d9f4c9fc6208080/docs/imagenes/image-1.png))
 
 
 Probando el algoritmo, nos dimos cuenta que el programa no está del todo diseñado para archivos demasiado grandes, por lo que se recomienda, hacer envío de archivos pequeños, esto con el fin de garantizar un correcto funcionamiento del programa.
