@@ -53,6 +53,7 @@ Pantalla del nodo intermedio:
 ![Nodo Intermedio](https://github.com/DokjaORV/VPNProject/blob/e51459510b8ffaaff103bca9dea6fe37539d4f11/docs/imagenes/image-3.png)
 
 Pantalla del receptor:
+
 ![Pantalla del Receptor](https://github.com/DokjaORV/VPNProject/blob/e51459510b8ffaaff103bca9dea6fe37539d4f11/docs/imagenes/image-4.png)
 
 
