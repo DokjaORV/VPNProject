@@ -26,8 +26,10 @@ Cabe mencionar, que el owner es el encargado de asignar qué roles tendrán los 
 Para la mediciones de las métricas fue necesario dividirlo en dos partes.
 La primera parte se basó únicamente en medir la latencia que se tenía al conectar cada equipo, para esto se hizo uso de un script de python, donde se utilizó la librería pythonping para poder hacer ping con cada uno de las computadoras y poder obtener valor como el mínimo, máximo y latencia promedio que se tenía entre cada conexión.
 
+**Mediciones de latencia**
 ![Mediciones de latencia](https://github.com/DokjaORV/VPNProject/blob/127fc3ac13c2516bd16ba4f0bdd6d9edd8981ef1/docs/imagenes/image-7.png)
 
+**Mediciones de Ancho de Banda**
 ![Mediciones de Ancho de Banda](https://github.com/DokjaORV/VPNProject/blob/127fc3ac13c2516bd16ba4f0bdd6d9edd8981ef1/docs/imagenes/image-8.png)
 
 Para la segunda parte de las mediciones, se procedió a medir el ancho de banda, igualmente de las conexiones entre equipos
@@ -51,7 +53,7 @@ Pantalla del nodo intermedio:
 ![Nodo Intermedio](https://github.com/DokjaORV/VPNProject/blob/e51459510b8ffaaff103bca9dea6fe37539d4f11/docs/imagenes/image-3.png)
 
 Pantalla del receptor:
-![Receptor](https://github.com/DokjaORV/VPNProject/blob/e51459510b8ffaaff103bca9dea6fe37539d4f11/docs/imagenes/image-4.png)
+![Pantalla del Receptor](https://github.com/DokjaORV/VPNProject/blob/e51459510b8ffaaff103bca9dea6fe37539d4f11/docs/imagenes/image-4.png)
 
 
 En este link encontrarás el algoritmo para probarlo directamente en tu dispositivo, hay que asegurarse de que los dispositivos emisores y receptores ejecuten el archivo y en dado caso que tengas nodos intermedios, de igual manera.
