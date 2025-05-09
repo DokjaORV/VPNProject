@@ -51,14 +51,14 @@ Pantalla del receptor:
 
 
 En este link encontrarás el algoritmo para probarlo directamente en tu dispositivo, hay que asegurarse de que los dispositivos emisores y receptores ejecuten el archivo y en dado caso que tengas nodos intermedios, de igual manera.
-[[https://github.com/DokjaORV/VPNProject/blob/main/src/Dijkstra.py]]
+[Código](https://github.com/DokjaORV/VPNProject/blob/main/src/Dijkstra.py)
 
 ### Paso 4: Análisis de Red con Algoritmo de Kruskal
 
 Este proyecto implementa el algoritmo de Kruskal para encontrar un Árbol de Expansión Mínima (MST) en una red representada como grafo ponderado. El objetivo es optimizar el uso de la red basándose en los valores de ancho de banda entre los nodos.
 Como primer paso, creamos el grafo con el ancho de banda con el fin de identificar cómo es que se armaria para posteriormente aplicar Kruskal
 
-![Grafo de Ancho de Banda](image-5.png)
+![Grafo de Ancho de Banda]([image-5.png]
 
 Una vez armado el grafo de ancho de banda con las conexiones entre 4 nodos (personas) las cuales son: **Alan, Andres, Marlene y Giovanni**
 y cada arista tiene dos valores los cuales son:
