@@ -18,7 +18,7 @@ Esta herramienta permitió interconectar cada uno de nuestros equipos facilitand
 ![Dispositivos conectados a una VPN Tailscale](https://github.com/DokjaORV/VPNProject/blob/ea74386b77771011d3322444c10ba6856bf3c79d/docs/imagenes/image.png)
 
 Para conectarse a la red tailscale del creador de la VPN, necesitamos pagar la suscripción de tailscale ya que únicamente permite a 3 usuarios lo cual en nuestro equipo no era apto.
-Seguido de ello, el Cowner de la VPN, compartirá la red ya sea por medio de correo electrónico o link para que los demás colaboradores se unan con un correo electrónico de preferencia y después seleccionen unirse a la red compartida.
+Seguido de ello, el Owner de la VPN, compartirá la red ya sea por medio de correo electrónico o link para que los demás colaboradores se unan con un correo electrónico de preferencia y después seleccionen unirse a la red compartida.
 Cabe mencionar, que el owner es el encargado de asignar qué roles tendrán los invitados antes de unirse a la red.
 
 ### Paso 2: Medición de las métricas de red
